@@ -6,11 +6,11 @@ export const orderMap: Record<number, string> = {
 };
 
 export const colStartMap: Record<number, string> = {
-  1: "3xl:col-start-1",
-  2: "3xl:col-start-2",
+  1: "2xl:col-start-1",
+  2: "2xl:col-start-2",
 };
 
 export const rowStartMap: Record<number, string> = {
-  1: "3xl:row-start-1",
-  2: "3xl:row-start-2",
+  1: "2xl:row-start-1",
+  2: "2xl:row-start-2",
 };

@@ -10,7 +10,7 @@ export default function ManagementImage() {
             ${managementBig} 624w,
             ${managementSmall} 335w
             `}
-        sizes="(max-width: 640px) calc(100vw - 40px), 624px"
+        sizes="(max-width: 640px) calc(100vw - 40px), 100%"
         alt="Dashboard of management services"
         className=""
         loading="lazy"

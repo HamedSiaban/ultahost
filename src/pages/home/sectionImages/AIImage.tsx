@@ -10,7 +10,7 @@ export default function AIImage() {
             ${aiBig} 624w,
             ${aiSmall} 335w
             `}
-        sizes="(max-width: 640px) calc(100vw - 40px), 624px"
+        sizes="(max-width: 640px) calc(100vw - 40px), 100%"
         alt="AI panel ready to get propts"
         className=""
         loading="lazy"

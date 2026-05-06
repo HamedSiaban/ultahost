@@ -46,7 +46,7 @@ export default function SupportImage() {
             ${supportBig} 624w,
             ${supportSmall} 335w
             `}
-        sizes="(max-width: 640px) calc(100vw - 40px), 624px"
+        sizes="(max-width: 640px) calc(100vw - 40px), 100%"
         alt="Man holding laptop with overlay of support replying to customer chat"
         className=""
         loading="lazy"

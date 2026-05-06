@@ -20,12 +20,12 @@ export default function Section({
       className={cn(
         "flex flex-col items-start gap-8",
         orderMap[flexOrder],
-        "3xl:border 3xl:items-center 3xl:border-[#00000029] 3xl:rounded-4xl 3xl:p-2 3xl:pt-6 3xl:opacity-50 hover:3xl:opacity-100 hover:3xl:shadow-[0px_0px_40px_rgba(0,0,0,0.04)]",
+        "2xl:items-center 2xl:rounded-4xl 2xl:border 2xl:border-[#00000029] 2xl:p-2 2xl:pt-6 2xl:opacity-50 hover:2xl:opacity-100 hover:2xl:shadow-[0px_0px_40px_rgba(0,0,0,0.04)]",
         colStartMap[gridColumnNumber],
         rowStartMap[gridRowNumber],
       )}
     >
-      <div className="3xl:items-center 3xl:px-10 flex flex-col items-start gap-4 sm:gap-5">
+      <div className="3xl:px-10 flex flex-col items-start gap-4 sm:gap-5 2xl:items-center 2xl:px-20">
         <TitleBadge label={badgeLabel} />
         <Title boldText={boldTitle} normalText={normalTitle} />
         <SubTitle text={subTitle} />
