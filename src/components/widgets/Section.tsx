@@ -13,6 +13,7 @@ export default function Section({
   flexOrder,
   gridColumnNumber,
   gridRowNumber,
+  image,
 }: SectionProps) {
   return (
     <section
@@ -29,8 +30,14 @@ export default function Section({
         <Title boldText={boldTitle} normalText={normalTitle} />
         <SubTitle text={subTitle} />
       </div>
-      <div className="3xl:h-160 h-100 w-full rounded-[25px] bg-red-500 object-contain">
-        imagse
+      <div className="relative h-auto w-full rounded-[25px]">
+        {/* <ResponsiveImage
+          smallSrc="/path/to/small-image.jpg"
+          largeSrc="/path/to/large-image.jpg"
+          alt="Image description"
+          className="h-full w-full object-cover"
+        /> */}
+        {image}
       </div>
     </section>
   );

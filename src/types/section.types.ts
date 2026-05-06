@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type SectionProps = {
   id: number;
   badgeLabel: string;
@@ -7,4 +9,5 @@ export type SectionProps = {
   flexOrder: number;
   gridColumnNumber: number;
   gridRowNumber: number;
+  image: ReactNode;
 };

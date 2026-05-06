@@ -1,3 +1,4 @@
+import PerformanceImage from "@/pages/home/sectionImages/PerformanceImage";
 import { SectionProps } from "@/types/section.types";
 
 export const sections: SectionProps[] = [
@@ -11,6 +12,7 @@ export const sections: SectionProps[] = [
     flexOrder: 1,
     gridColumnNumber: 1,
     gridRowNumber: 1,
+    image: <PerformanceImage />,
   },
   {
     id: 2,
@@ -22,6 +24,7 @@ export const sections: SectionProps[] = [
     flexOrder: 2,
     gridColumnNumber: 1,
     gridRowNumber: 2,
+    image: <></>,
   },
   {
     id: 3,
@@ -33,6 +36,7 @@ export const sections: SectionProps[] = [
     flexOrder: 3,
     gridColumnNumber: 2,
     gridRowNumber: 1,
+    image: <></>,
   },
   {
     id: 4,
@@ -44,5 +48,6 @@ export const sections: SectionProps[] = [
     flexOrder: 4,
     gridColumnNumber: 2,
     gridRowNumber: 2,
+    image: <></>,
   },
 ];

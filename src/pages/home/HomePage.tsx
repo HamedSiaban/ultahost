@@ -1,5 +1,5 @@
 import Section from "@/components/widgets/Section";
-import { sections } from "@/constants/sectionsContent";
+import { sections } from "@/constants/SectionsContent";
 
 export default function HomePage() {
   return sections.map((section) => (
@@ -13,6 +13,7 @@ export default function HomePage() {
       flexOrder={section.flexOrder}
       gridColumnNumber={section.gridColumnNumber}
       gridRowNumber={section.gridRowNumber}
+      image={section.image}
     />
   ));
 }
