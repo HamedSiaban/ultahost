@@ -1,6 +1,7 @@
 import AIImage from "@/pages/home/sectionImages/AIImage";
 import ManagementImage from "@/pages/home/sectionImages/ManagementImage";
 import PerformanceImage from "@/pages/home/sectionImages/PerformanceImage";
+import SupportImage from "@/pages/home/sectionImages/SupportImage";
 import { SectionProps } from "@/types/section.types";
 
 export const sections: SectionProps[] = [
@@ -50,6 +51,6 @@ export const sections: SectionProps[] = [
     flexOrder: 4,
     gridColumnNumber: 2,
     gridRowNumber: 2,
-    image: <></>,
+    image: <SupportImage />,
   },
 ];
