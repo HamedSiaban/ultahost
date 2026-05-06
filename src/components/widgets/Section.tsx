@@ -30,15 +30,7 @@ export default function Section({
         <Title boldText={boldTitle} normalText={normalTitle} />
         <SubTitle text={subTitle} />
       </div>
-      <div className="relative h-auto w-full rounded-[25px]">
-        {/* <ResponsiveImage
-          smallSrc="/path/to/small-image.jpg"
-          largeSrc="/path/to/large-image.jpg"
-          alt="Image description"
-          className="h-full w-full object-cover"
-        /> */}
-        {image}
-      </div>
+      <div className="relative h-auto w-full rounded-[25px]">{image}</div>
     </section>
   );
 }
