@@ -3,18 +3,16 @@ import managementSmall from "@/assets/images/sections/management/small.png";
 
 export default function ManagementImage() {
   return (
-    <div className="relative h-auto w-full rounded-[25px]">
-      <img
-        src={managementSmall}
-        srcSet={`
+    <img
+      src={managementSmall}
+      srcSet={`
             ${managementBig} 624w,
             ${managementSmall} 335w
             `}
-        sizes="(max-width: 640px) calc(100vw - 40px), 100%"
-        alt="Dashboard of management services"
-        className=""
-        loading="lazy"
-      />
-    </div>
+      sizes="(max-width: 640px) calc(100vw - 40px), 100%"
+      alt="Dashboard of management services with system controls and analytics"
+      className="w-full rounded-[25px]"
+      loading="lazy"
+    />
   );
 }

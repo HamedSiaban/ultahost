@@ -6,7 +6,7 @@ export default function TitleBadge({ label }: { label: string }) {
     <Badge>
       <LightningSvg />
       <span>
-        <b>{label}</b>
+        <strong>{label}</strong>
       </span>
     </Badge>
   );

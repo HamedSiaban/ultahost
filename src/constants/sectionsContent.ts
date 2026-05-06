@@ -1,10 +1,10 @@
-import AIImage from "@/pages/home/sectionImages/AIImage";
-import ManagementImage from "@/pages/home/sectionImages/ManagementImage";
-import PerformanceImage from "@/pages/home/sectionImages/PerformanceImage";
-import SupportImage from "@/pages/home/sectionImages/SupportImage";
 import { SectionProps } from "@/types/section.types";
 
-export const sections: SectionProps[] = [
+export type SectionType = Omit<SectionProps, "image"> & {
+  imageComponentId: "performance" | "ai" | "management" | "support";
+};
+
+export const sections: SectionType[] = [
   {
     id: 1,
     badgeLabel: "PERFORMANCE",
@@ -15,7 +15,7 @@ export const sections: SectionProps[] = [
     flexOrder: 1,
     gridColumnNumber: 1,
     gridRowNumber: 1,
-    image: <PerformanceImage />,
+    imageComponentId: "performance",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const sections: SectionProps[] = [
     flexOrder: 2,
     gridColumnNumber: 1,
     gridRowNumber: 2,
-    image: <AIImage />,
+    imageComponentId: "ai",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const sections: SectionProps[] = [
     flexOrder: 3,
     gridColumnNumber: 2,
     gridRowNumber: 1,
-    image: <ManagementImage />,
+    imageComponentId: "management",
   },
   {
     id: 4,
@@ -51,6 +51,6 @@ export const sections: SectionProps[] = [
     flexOrder: 4,
     gridColumnNumber: 2,
     gridRowNumber: 2,
-    image: <SupportImage />,
+    imageComponentId: "support",
   },
 ];

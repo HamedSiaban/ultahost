@@ -30,7 +30,9 @@ export default function Section({
         <Title boldText={boldTitle} normalText={normalTitle} />
         <SubTitle text={subTitle} />
       </div>
-      <div className="relative h-auto w-full rounded-[25px]">{image}</div>
+      <div className="relative w-full" style={{ aspectRatio: "16 / 10" }}>
+        {image}
+      </div>
     </section>
   );
 }
