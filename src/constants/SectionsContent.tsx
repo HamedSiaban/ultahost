@@ -1,3 +1,4 @@
+import AIImage from "@/pages/home/sectionImages/AIImage";
 import PerformanceImage from "@/pages/home/sectionImages/PerformanceImage";
 import { SectionProps } from "@/types/section.types";
 
@@ -24,7 +25,7 @@ export const sections: SectionProps[] = [
     flexOrder: 2,
     gridColumnNumber: 1,
     gridRowNumber: 2,
-    image: <></>,
+    image: <AIImage />,
   },
   {
     id: 3,
