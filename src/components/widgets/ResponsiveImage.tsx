@@ -10,7 +10,7 @@ export default function ResponsiveImage({
   largeSrc,
   alt = "",
   className = "",
-  sizes = "(max-width: 640px) 100vw, 640px",
+  sizes = "(max-width: 640px) calc(100vw - 40px), 640px",
 }: ResponsiveImageProps) {
   return (
     <img

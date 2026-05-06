@@ -24,6 +24,8 @@
   --color-primary-500: #9dc332;
   --color-primary: var(--color-primary-500);
 
+  --color-secondary-900: #3e6b03;
+
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;
